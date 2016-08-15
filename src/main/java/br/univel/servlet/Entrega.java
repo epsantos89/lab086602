@@ -1,4 +1,4 @@
-package br.univel;
+package br.univel.servlet;
 
 
 import java.io.IOException;
@@ -11,14 +11,14 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class Venda
  */
-@WebServlet("/venda")
-public class Venda extends HttpServlet {
+@WebServlet("/entrega")
+public class Entrega extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Venda() {
+    public Entrega() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -30,6 +30,7 @@ public class Venda extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
+
 
 
 }
